@@ -1,0 +1,1 @@
+Repositório do primeiro projeto da disciplina de Aplicações distribuídas do curso de Sistemas de Informação da UFG

@@ -29,7 +29,6 @@ GRUPO 3
 * Raquel Andrade
 * Jeniffer Silva
 * Fernando dos Santos Figueredo
-*
 
 
 GRUPO 4
@@ -39,7 +38,6 @@ GRUPO 4
 * Ygor Castor
 * Rafhael Augusto
 * Gustavo Alves
-*
 
 GRUPO 5
 -------

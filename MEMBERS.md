@@ -6,11 +6,11 @@ MEMBROS DO PROJETO
 GRUPO 1
 -------
 * Líder: CAIO LENTHULLIUS BARROS
-* JOSÉ UMBERTO MOREIRA JÚNIOR
-* ANTÔNIO TAVARES PEREIRA
-* POLLYANNA TELES PINCHEMEL
 * ALLAN DA SILVA BRAGA 100349
-* FELIPE GONÇALVES FERREIRA
+* 
+* 
+* 
+* 
 
 
 GRUPO 2
@@ -25,19 +25,19 @@ GRUPO 2
 GRUPO 3
 -------
 * Líder: Gilmar Alves Bernardes Júnior
-* Ilda Emanoely
-* Raquel Andrade
-* Jeniffer Silva
-* Fernando dos Santos Figueredo
+* 
+* 
+* 
+* 
 
 
 GRUPO 4
 -------
 * Líder: Pedro de Oliveira
-* Carlos Hernane
-* Ygor Castor
-* Rafhael Augusto
-* Gustavo Alves
+* 
+* 
+* 
+* 
 
 GRUPO 5
 -------

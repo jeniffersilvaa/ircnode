@@ -34,11 +34,11 @@ GRUPO 3
 
 GRUPO 4
 -------
-* Líder: 
-* 
-* 
-* 
-* 
+* Líder: Pedro de Oliveira
+* Carlos Hernane
+* Ygor Castor
+* Rafhael Augusto
+* Gustavo Alves
 *
 
 GRUPO 5

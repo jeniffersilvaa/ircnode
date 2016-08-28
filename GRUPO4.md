@@ -4,4 +4,5 @@ Ygor Castor
 Rafhael Augusto
 Gustavo Alves
 
+
 Meta: Server queries and commands

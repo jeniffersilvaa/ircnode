@@ -5,17 +5,13 @@ MEMBROS DO PROJETO
 
 GRUPO 1
 -------
->>>>>>> Stashed changes
 * Líder: CAIO LENTHULLIUS BARROS
     *JOSÉ UMBERTO MOREIRA JÚNIOR
     *ANTÔNIO TAVARES PEREIRA
     *POLLYANNA TELES PINCHEMEL
     *ALLAN DA SILVA BRAGA 100349
     *FELIPE GONÇALVES FERREIRA
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/membros
->>>>>>> Stashed changes
+
 
 GRUPO 2
 -------

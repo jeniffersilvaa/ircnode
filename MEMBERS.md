@@ -14,7 +14,7 @@ GRUPO 1
 
 GRUPO 2
 -------
-* Líder:
+* Líder: 
 * 
 * 
 * 
@@ -23,11 +23,11 @@ GRUPO 2
 
 GRUPO 3
 -------
-* Líder: 
-* 
-* 
-* 
-* 
+* Líder: Gilmar Alves Bernardes Júnior
+* Ilda Emanoely
+* Raquel Andrade
+* Jeniffer Silva
+* Fernando dos Santos Figueredo
 *
 
 

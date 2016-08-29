@@ -1,16 +1,20 @@
 var server = require('net');
 
 var net = server.createServer(function(socket) {
-	console.log(motdQ);
-	socket.write('');
-	socket.pipe(socket);
+	motdQuery(socket);
+	socket.on('message', function (data) {
+		socket.write(data);	
+	});
 });
 
-var motdQ = function motdQuery() {
+function motdQuery(socket) {
 	var fs = require('fs');
  
 	fs.readFile('queries/motd', 'utf8', function(err, contents) {
-		return contents;
+		if(err) {
+			Console.log("Ocorreu um erro na leitura do arquivo queries/motd");	
+		}
+		socket.write(contents);
 	});
 	}
 

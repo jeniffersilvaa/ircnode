@@ -16,7 +16,7 @@ GRUPO 1
 GRUPO 2
 -------
 * Líder: Edvan Santos Souza
-* 
+* Sílvio Passos Severino
 * 
 * 
 * 

@@ -48,7 +48,7 @@ Server.prototype.connect = function () {
 };
 
 
-var s1 = new Server("127.0.0.1", 6667, null);
+var s1 = new Server("chat.freenode.net", 6667, null);
 s1.connect();
 
 	/* Linha de comando no console */

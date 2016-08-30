@@ -25,7 +25,7 @@ GRUPO 2
 GRUPO 3
 -------
 * Líder: Gilmar Alves Bernardes Júnior
-* 
+* Fernando dos Santos Figueredo
 * 
 * 
 * 

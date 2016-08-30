@@ -1,5 +1,0 @@
-
-git config --global user.email oliverher@hotmail.com
-git config --global user.name "Carlos Hernane Oliveira"
-git checkout grupo4-consultas-ao-servidor 
-git pull

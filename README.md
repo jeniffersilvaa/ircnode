@@ -7,4 +7,4 @@ Lider: Pedro de Oliveira
 * Rafhael Augusto
 * Gustavo Alves
 
-Meta: Server queries and commands
+Meta da Sprint 1: Server queries and commands

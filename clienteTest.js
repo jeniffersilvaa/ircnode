@@ -7,8 +7,8 @@ rl.setPrompt('IRC> ');
 rl.prompt();
 
 /* Dados para acesso. Servidor no final do codigo  */
-var nickname = "Caio_SI";
-var realname = "Caio Barros";
+var nickname = "Teste_Pedro";
+var realname = "Pedro";
 var version = "Custom 1.0";
 
 var Server = function (address, port, socket) {

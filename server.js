@@ -12,6 +12,10 @@ var net = server.createServer(function(socket) {
 					var time = require("./queries/time");
 					socket.write(time.print());
 				break;
+				case "VERSION":
+					var version = require("./queries/version")
+					socket.write(version.print());
+				break;
         	}
     	});
 });

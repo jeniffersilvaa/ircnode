@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "irf-ufg",
+  "description": "IRC Node",
+  "version": "0.0.1",
+  "author": "Turma de AD 2016/2",
+  "main": "./modules/server.js",
+  "directories": {
+    "lib": "./modules"
+  },
+  "dependencies": {
+    "carrier": ">= 0.1.13",
+    "winston": "0.7.3"
+  },
+  "bin": {
+    "irc": "bin/irc.js"
+  }
+}

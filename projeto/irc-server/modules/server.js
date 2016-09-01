@@ -6,6 +6,7 @@ function Server() {
     this.port = 6667;
     this.commands = new ServerCommands(this);
     this.connectionsCount = 0;
+    this.lastCommand = "";
 }
 
 Server.initialize = function () {
@@ -35,7 +36,7 @@ Server.prototype = {
     },
 
     parseMessage: function (data) {
-        var message = data.trim().split(/ :/),
+        var message = data.toUpperCase().trim().split(/ :/),
             args = message[0].split(' ');
 
         message = [message.shift(), message.join(' :')];
@@ -50,19 +51,20 @@ Server.prototype = {
         }
 
         return {
-            command: args[0].toUpperCase(),
+            command: args[0],
             args: args.slice(1)
         };
     },
 
     send: function (data, client) {
         var message = this.parseMessage(data);
-        if (this.findCommand(message.command)) {
+        if (this.findCommand(message.command, message.args)) {
             this.commands[message.command].apply(this.commands, [client].concat(message.args));
         }
     },
 
-    findCommand: function (command) {
+    findCommand: function (command, args) {
+        this.lastCommand = command + " " + args.toString().replace(",", " ").trim();
         return this.commands[command];
     }
 };

@@ -17,12 +17,7 @@ Commands.prototype = {
         user.write(texto);
     },
     VERSION: function (user) {
-        var texto = fs.readFileSync('../files/version', {encoding: 'utf8'}, function (erro, dados) {
-            if (erro) {
-                console.log("Ocorreu um erro na leitura do arquivo '../files/motd'!");
-            }
-        });
-        user.write(texto);
+        user.write("Versão: this.server.version");
     },
     TIME: function (user) {
         var date = new Date();
@@ -30,7 +25,15 @@ Commands.prototype = {
     },
     LUSERS: function (user) {
         user.write("Exitem " + this.server.connectionsCount + " usuários online no servidor.");
-    }
+    },
+    STATS: function (user) {
+        user.write("Faltam parâmetros!");
+    }/*,
+    STATS: function (user) {
+        var param = this.server.command;
+    }*/
+
+
 };
 
 module.exports = Commands;

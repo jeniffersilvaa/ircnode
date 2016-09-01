@@ -1,4 +1,7 @@
 var fs = require('fs');
+var userCount;
+exports.userCount = userCount;
+Commands.userCount = 0;
 
 function Commands(server) {
     this.server = server;
@@ -26,8 +29,10 @@ Commands.prototype = {
     },
     TIME: function (user) {
         var date = new Date();
-        date.set
         user.write(date.getUTCDay() + "/" + date.getUTCMonth() + "/" + date.getUTCFullYear() + " " + date.getUTCHours() + ":" + date.getUTCMinutes());
+    },
+    LUSERS: function (user) {
+        user.write("Exitem " + Commands.userCount + " usuários online no servidor.");
     }
 };
 

@@ -22,6 +22,7 @@ Server.prototype = {
         console.log('Servidor escutando em: ' + this.port);
 
         function conn(client) {
+            ServerCommands.userCount++;
             client.on("data", function(line) {
                 server.data(client, line.toString());
             });

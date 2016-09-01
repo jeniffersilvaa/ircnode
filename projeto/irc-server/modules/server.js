@@ -5,6 +5,7 @@ var net = require('net'),
 function Server() {
     this.port = 6667;
     this.commands = new ServerCommands(this);
+    this.connectionsCount = 0;
 }
 
 Server.initialize = function () {
@@ -22,7 +23,7 @@ Server.prototype = {
         console.log('Servidor escutando em: ' + this.port);
 
         function conn(client) {
-            ServerCommands.userCount++;
+            server.connectionsCount++;
             client.on("data", function(line) {
                 server.data(client, line.toString());
             });

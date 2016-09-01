@@ -17,7 +17,7 @@ GRUPO 2
 -------
 * Líder: Edvan Santos Souza
 * Sílvio Passos Severino
-* 
+* Gabriel Hamada Santalucia
 * 
 * 
 * 

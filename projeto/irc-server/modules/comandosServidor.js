@@ -15,6 +15,19 @@ Commands.prototype = {
             }
         });
         user.write(texto);
+    },
+    VERSION: function (user) {
+        var texto = fs.readFileSync('../files/version', {encoding: 'utf8'}, function (erro, dados) {
+            if (erro) {
+                console.log("Ocorreu um erro na leitura do arquivo '../files/motd'!");
+            }
+        });
+        user.write(texto);
+    },
+    TIME: function (user) {
+        var date = new Date();
+        date.set
+        user.write(date.getUTCDay() + "/" + date.getUTCMonth() + "/" + date.getUTCFullYear() + " " + date.getUTCHours() + ":" + date.getUTCMinutes());
     }
 };
 

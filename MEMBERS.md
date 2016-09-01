@@ -26,7 +26,7 @@ GRUPO 3
 -------
 * Líder: Gilmar Alves Bernardes Júnior
 * Fernando dos Santos Figueredo
-* 
+* Raquel Leite Andrade
 * 
 * 
 

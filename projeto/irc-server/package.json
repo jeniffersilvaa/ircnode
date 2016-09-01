@@ -8,10 +8,6 @@
   "directories": {
     "lib": "./modules"
   },
-  "dependencies": {
-    "carrier": ">= 0.1.13",
-    "winston": "0.7.3"
-  },
   "bin": {
     "irc": "bin/irc.js"
   }

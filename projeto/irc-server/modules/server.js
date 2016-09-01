@@ -1,5 +1,4 @@
 var net = require('net'),
-    carrier = require('carrier'),
     ServerCommands = require('./comandosServidor');
 
 
@@ -23,10 +22,8 @@ Server.prototype = {
         console.log('Servidor escutando em: ' + this.port);
 
         function conn(client) {
-            var carry = carrier.carry(client);
-            client.on('error', console.log);
-            carry.on('line', function (line) {
-                server.data(client, line);
+            client.on("data", function(line) {
+                server.data(client, line.toString());
             });
         }
     },

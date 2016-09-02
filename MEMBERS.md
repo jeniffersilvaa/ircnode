@@ -42,7 +42,7 @@ GRUPO 4
 GRUPO 5
 -------
 * Líder: Vitor Roberto Silva Miranda
-* 
+* ADRIEL FERREIRA ROSA
 * 
 * 
 * 

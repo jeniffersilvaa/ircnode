@@ -63,10 +63,22 @@ Server.prototype.send = function(message) {
         console.log("Assunto do canal modificado ");
         wait(2000);
         break;
-
-
-
-
+    case "names":
+        console.log("Exibindo quem está no canal ");
+        wait(2000);
+        break;
+    case "list":
+        console.log("Lista dos canais disponíveis ");
+        wait(2000);
+        break;
+    case "invite":
+        console.log("Convidando usuário ");
+        wait(2000);
+        break;
+    case kick":
+        console.log("Kickando usuário da sala ");
+        wait(2000);
+        break;
 	default:
         wait(1000);
 }

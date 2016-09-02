@@ -63,7 +63,7 @@ Commands.prototype = {
             });
             user.write("Operadores do servidor:\n" + texto);
         } else if (args === "-U") {
-            user.write("Time de vida do servidor: " + process.hrtime()[0] + " milissegundos.");
+            user.write("Tempo de vida do servidor: " + process.hrtime()[0] + " milissegundos.");
         } else {
             user.write("Parâmetro inválido ou faltam parâmetros!");
         }

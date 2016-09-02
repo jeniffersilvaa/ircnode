@@ -51,7 +51,7 @@ s1.connect();
 var read = function () {
     rl.question('IRC> ', function (command) {
         s1.send(command);
-        if (command == 'LOGOUT')
+        if (command == '/quit')
             return rl.close();
         read();
     });

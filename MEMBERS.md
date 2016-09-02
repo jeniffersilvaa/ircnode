@@ -34,7 +34,7 @@ GRUPO 3
 GRUPO 4
 -------
 * Líder: Pedro de Oliveira
-* 
+* Ygor Escatolim Castor Santana
 * 
 * 
 * 

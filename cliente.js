@@ -17,7 +17,19 @@ var Server = function (address, port, socket) {
     this._socket  = socket;
 };
 
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
+
 Server.prototype.send = function(message) {
+	 if (message[0]!="/"){
+	console.log("Não é um comando válido");
+		}
+
 	if (message[0]=="/") {
 		var data = message.slice(1).split(" ")
 		if (data[0] == "msg") {
@@ -28,11 +40,42 @@ Server.prototype.send = function(message) {
 			this._socket.write(msg+"\r\n");
 		} else {
 			var msg = message.slice(1, message.length);
-			console.log("sending:"+msg);
-			this._socket.write(msg+"\r\n");
-		}
-	};
+			
+	switch (data[0]) {
+    case "join":
+	console.log("Entrando no canal solicitado ");
+	wait(2000);
+        break;
+
+    case "part":
+        console.log("Saindo no canal solicitado ");
+        wait(2000);
+        break;
+    case "partall":
+        console.log("Saindo de todos os canais ");
+        wait(2000);
+        break;
+    case "mode":
+        console.log("Permissões ao usuário solicitado foram alteradas ");
+        wait(2000);
+        break;
+    case "topic":
+        console.log("Assunto do canal modificado ");
+        wait(2000);
+        break;
+
+
+
+
+	default:
+        wait(1000);
 }
+
+	/*		console.log("Enviando o comando: "+msg); */
+			this._socket.write(msg+"\r\n");
+}
+}
+	};
 Server.prototype.connect = function () {
     console.log('Connecting to IRC server: ' + this._address + " on port " + this._port);
     server.connect(this, nickname, realname, function(socket, msg) {

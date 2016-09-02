@@ -53,7 +53,7 @@ Commands.prototype = {
                         + this.versionCount + "\nTIME: " + this.timeCount + "\nLUSERS: "
                         + this.lusersCount + "\nSTATS: " + this.statsCount + "\nLINKS: "
                         + this.linksCount + "\nCONNECT: " + this.connectCount + "\nTRACE: "
-                        + this.traceCount + "\nADMIN: " + this.adminCount + "INFO: "
+                        + this.traceCount + "\nADMIN: " + this.adminCount + "\nINFO: "
                         + this.infoCount);
         } else if (args === "-O") {
             var texto = fs.readFileSync('../files/operators', {encoding: 'utf8'}, function (erro, dados) {

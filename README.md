@@ -1,8 +1,6 @@
-Repositório do primeiro projeto da disciplina de Aplicações distribuídas do curso de Sistemas de Informação da UFG
+Repositório do projeto de Aplicações distribuídas
 
---
-
-Para rodar o cliente base, primeiramente atualize o node.js com os comando abaixo.
+Para rodar o cliente base, primeiramente atualize o node.js com os comando abaixo :
 
 npm cache clean -f
 
@@ -11,7 +9,7 @@ npm install -g n
 n stable
 
 
-Feito isso basta configurar os dados no arquivo cliente.js.
+Feito isso basta configurar os dados no arquivo cliente.js :
 
 
 Para conectar:
